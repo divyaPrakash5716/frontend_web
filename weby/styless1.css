@@ -1,0 +1,144 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+body{
+  background-color: powderblue;
+}
+
+.name{
+  display:flex;
+  justify-content: center;
+  flex-wrap:nowrap;
+
+}
+.menu{
+  color:red;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
+  font-size: 20px;
+  padding:18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.food{
+  display:flex;
+  justify-content: center;
+  flex-wrap:nowrap;
+
+}
+
+.image{
+  background-color: white;
+  width:270px;
+  
+  margin:10px;
+  border-radius: 15px;
+}
+
+.image1{
+  height: 210px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.image2{
+  background-image: url("briyani3.jpeg");
+}
+.image3{
+  background-image: url("fish.jpeg");
+}
+.image4{
+  background-image: url("momos4.jpeg");
+}
+.image5{
+  background-image: url("chicken\ gravy.jpeg");
+}
+.image6{
+  background-image: url("noodle2.jpeg");
+}
+.image7{
+  background-image: url("shawarma.jpeg");
+}
+.image8{
+  background-image: url("parota2.jpeg");
+}
+.image9{
+  background-image: url("mutton\ gravy2.jpeg");
+}
+.image10{
+  background-image: url("chicken4.jpeg");
+}
+.image11{
+  background-image: url("butter-chicken-1-1-768x1024.jpg");
+}
+.image12{
+  background-image: url("nonveg.jpg");
+}
+.image13{
+  background-image: url("tandoori-seekh.jpg");
+}
+.image14{
+  background-image: url("naan.jpg");
+}
+.image15{
+  background-image: url("chicken-tandoori-full-.jpg");
+}
+.image16{
+  background-image: url("masala-omelette-photo-720x540.webp");
+}
+.image17{
+  background-image: url("chicken\ soup.jpg");
+}
+.image18{
+  background-image: url("Prawns-65.jpg");
+}
+.image19{
+  background-image: url("Chicken-Kothu-Parotta.jpg");
+}
+.image20{
+  background-image: url("momos2.jpeg");
+}
+.image21{
+  background-image: url("fried\ rice.png");
+}
+.image22{
+  background-image: url("rose\ mil.jpg");
+}
+.image23{
+  background-image: url("3mojitos.jpg");
+}
+.image24{
+  background-image: url("coco.png");
+}
+.image25{
+  background-image: url("molten\ lava\ cake.jpg");
+}
+.image h2{
+  padding:20px;
+
+}
+
+.image p{
+  padding:10px;
+}
+
+
+
+.image1:hover {
+  background-color: rgb(62,62,62);
+  color:white;
+  cursor:pointer;
+  transform: scale(1.05);
+  
+
+
+}
